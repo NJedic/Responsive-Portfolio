@@ -245,5 +245,49 @@ header{
 	}
 }
 
+/*Max-width of 768px*/
+@media screen and (max-width: 768px) {
+	.header{
+		max-width: 100%;
+	}
+
+	#Headern{
+		margin-left: 25px;
+		font-size: .75em;
+		padding: 30px;
+		margin-right: 175px;
+	}
+	
+	.tab {
+		padding: 25px;
+	}
+
+	#Main {
+		margin-left: 30px;
+		max-width: 700px;
+	}
+	
+	img#Profile {
+		max-width: 30%;
+	}
+
+	.Bio{
+		max-width: 50%;
+		margin-right: 0px;
+	}
+
+	.contact{
+		max-width: 700px;
+	}
+
+	.imgs{
+		padding-left: 0px;
+	}
+
+	#Connect{
+		width: 650px;
+		margin-left: 30px;
+		margin-bottom: 30px; 
+	}
 
 /*End of CSS*/
