@@ -202,5 +202,48 @@ header{
 	color: #eee;
 	font-size: 14pt;
 	text-align: center;
+}	
+
+/*Additional Screen Sizes */ 
+
+/*Max-width of 980px*/
+
+@media screen and (max-width: 980px) {
+	.header{
+		max-width: 100%;
+	}
+
+	#Headern{
+		font-size: 1em;
+		padding: 30px;
+		margin-right: 200px;
+	}
 	
+	.tab {
+		padding: 25px;
+	}
+
+	#Main {
+		max-width: 450px;
+	}
+	
+	img#Profile {
+		max-width: 375px;
+	}
+
+	.Bio{
+		max-width: 100%;
+		margin-right: 15px;
+	}
+
+	.contact{
+		max-width: 400px;
+	}
+
+	.imgs{
+		padding-left: 50px;
+	}
+}
+
+
 /*End of CSS*/
